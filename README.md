@@ -14,6 +14,29 @@ The customer service team at Netflix has started to receive user complaints abou
 
 
 ## Part 1 directory:
-* Instruction to running version one of the algorithm...?!?!?!?!
-* The approach to the development of version 1 of the algorithm has been detailed in the notebooks and README files located in the “Part 1” subdirectory.
+* The approach to the development of version 1 of the algorithm has been detailed in the notebooks files located in the “Part 1” subdirectory.
+* To run the notebook found in the Part 1 follow these instruction:
+    * Navigate to the "part_1" folder of the directory.
+    * Run this code if you do not have conda installed in your machine.
+    ```text
+    wget http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+    bash ~/miniconda.sh -b -p $HOME/miniconda
+    export PATH="$HOME/miniconda/bin:$PATH"
+    ```
+    * This line will create a file with all the libraries needed for the notebook to run.
+    ```text
+    conda env create -f environment.yml
+    ```
+    * Depending on your OS run the repective line below to activate the environment needed for the notebook.
+    ```text
+    Windows:            activate myenv
+    macOS and Linux:    source activate myenv
+
+    ```
+    * This line will run jupyter lab on your machine making avaialble on port 8888.
+    ```text
+    jupyter-lab master.ipynb
+    ```
+
+
 
