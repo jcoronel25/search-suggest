@@ -6,16 +6,16 @@ The customer service team at Netflix has started to receive user complaints abou
 
 ## Stakeholders
 1. Product Team: This team has requested the ability to provide a user with suggested movies when the user is not able to find the specific movie they want to watch.
-2. Customer Service Team: This team expects that the new feature will reduce the number of user complains about the movies not being available on their library.
+2. Customer Service Team: This team expects that the new feature will reduce the number of user complaints about the movies not being available on their library.
 
 ## Success Metrics
 * The number of user complaints related to a movie not being available should show statistically significant decreases after the feature is implemented.
-* The number of people that watch a recommended movie should increase while the number of user complaints decreases.
+* The number of people who watch a recommended movie should increase while the number of user complaints decreases.
 
 
 ## Part 1 directory:
-* The approach to the development of version 1 of the algorithm has been detailed in the notebooks files located in the “Part 1” subdirectory.
-* To run the notebook found in the Part 1 follow these instruction:
+* The approach to the development of version 1 of the algorithm has been detailed in the notebook files located in the “Part 1” subdirectory.
+* To run the notebook found in the Part 1 follow these instructions:
     * Navigate to the "part_1" folder of the directory.
     * Run this code if you do not have conda installed in your machine.
     ```text
@@ -27,13 +27,13 @@ The customer service team at Netflix has started to receive user complaints abou
     ```text
     conda env create -f environment.yml
     ```
-    * Depending on your OS run the repective line below to activate the environment needed for the notebook.
+    * Depending on your OS run the respective line below to activate the environment needed for the notebook.
     ```text
     Windows:            activate rec
     macOS and Linux:    source activate rec
 
     ```
-    * This line will run jupyter lab on your machine making avaialble on port 8888.
+    * This line will run jupyter lab on your machine making it available on port 8888.
     ```text
     jupyter-lab Collaborative_Filtering_Part_1.ipynb
     ```
