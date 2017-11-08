@@ -29,13 +29,13 @@ The customer service team at Netflix has started to receive user complaints abou
     ```
     * Depending on your OS run the repective line below to activate the environment needed for the notebook.
     ```text
-    Windows:            activate myenv
-    macOS and Linux:    source activate myenv
+    Windows:            activate rec
+    macOS and Linux:    source activate rec
 
     ```
     * This line will run jupyter lab on your machine making avaialble on port 8888.
     ```text
-    jupyter-lab master.ipynb
+    jupyter-lab Collaborative_Filtering_Part_1.ipynb
     ```
 
 
