@@ -1,4 +1,4 @@
-# Using Collaborative Filtering to Recommend Alternative Movies
+# Part 1: Using Collaborative Filtering to Recommend Alternative Movies
 
 ## Case Study
 The customer service team at Netflix has started to receive user complaints about Netflix having a limited catalog of movies. In response, the product team has decided that they want to suggest similar movies as a consolation to users that can't find their desired movie. The product team has asked their top two data scientist, Debbie and Juan Carlos, to create an algorithm that allows a user to receive suggested movies when their searched for movie is not available.
@@ -12,11 +12,13 @@ The customer service team at Netflix has started to receive user complaints abou
 * The number of user complaints related to a movie not being available should show statistically significant decreases after the feature is implemented.
 * The number of people who watch a recommended movie should increase while the number of user complaints decreases.
 
+# Part 2: Using TensorFlow Wide & Deep with LASSO regression to make movie recommendations
 
-## Part 1 directory:
-* The approach to the development of version 1 of the algorithm has been detailed in the notebook files located in the “Part 1” subdirectory.
-* To run the notebook found in the Part 1 follow these instructions:
-    * Navigate to the "part_1" folder of the directory.
+We've used TensorFlow's Wide & Deep model to predict movie ratings, and also made an extension to the model by implementing LASSO regression for improved feature selection. For full details, refer to the subdirectory "Part_2".
+
+## To run the code in any subdirectory, do the following:
+* To run the notebook found in the Part 1 or Part 2 follow these instructions:
+    * Navigate to the "part_1" or "part_2" folder of the directory.
     * Run this code if you do not have conda installed in your machine.
     ```text
     wget http://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
@@ -33,10 +35,13 @@ The customer service team at Netflix has started to receive user complaints abou
     macOS and Linux:    source activate rec
 
     ```
-    * This line will run jupyter lab on your machine making it available on port 8888.
+    * For Part 1, this line will run jupyter lab on your machine making it available on port 8888.
     ```text
     jupyter-lab Collaborative_Filtering_Part_1.ipynb
     ```
-
+    * For Part 2, this line will run jupyter lab on your machine making it available on port 8888.
+    ```text
+    jupyter-lab Wide-Deep-Lasso.ipynb
+    ```
 
 
